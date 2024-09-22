@@ -22,6 +22,9 @@ body {
 .content-container {
   width: 120rem;
   margin: 0 auto;
+  width: 80rem; /* Seting a fixed width for the section */
+  overflow-y: auto; /* To enable horizontal scrolling */
+  white-space: nowrap;
 }
 
 .mobile-menu {
